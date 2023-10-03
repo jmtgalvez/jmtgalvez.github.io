@@ -8,15 +8,6 @@
   --color-card-bg: #fefefe;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    --color-main-bg: #cdcdcd;
-    --color-main-text: #131313;
-    --color-accent: blue;
-    --color-card-bg: #fefefe;
-  }
-}
-
 body {
   margin: 0;
   width: 100vw;
@@ -88,7 +79,7 @@ section > h1 {
 
 
 #home {
-  height: 90vh;
+  height: 95vh;
   padding-top: 10vh;
   vertical-align: middle;
   font-size: 2rem;
