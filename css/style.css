@@ -143,16 +143,24 @@ section > h1 {
   display: none;
 }
 
+#learning {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2em;
+}
+
+#certificate,
 #education {
   display: grid;
   grid-template-columns: 1fr;
   gap: 2em;
-  width: fit-content;
+  /* width: fit-content; */
   padding: 2em;
   background-color: var(--color-card-bg);
   color: #131313;
 }
 
+#certificate > *,
 #education > * {
   margin: 0;
 }
@@ -299,6 +307,10 @@ input[type="submit"] {
     font-size: 1.5em;
   }
 
+  #learning {
+    grid-template-columns: 1fr 1fr;
+  }
+
   #projects-grid {
     grid-template-columns: repeat(3, 1fr);
   }
@@ -310,3 +322,4 @@ input[type="submit"] {
   #contact > h1 {
     grid-column: 1 / -1;
   }
+}
